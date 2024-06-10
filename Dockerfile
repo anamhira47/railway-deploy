@@ -5,7 +5,7 @@ FROM node:22-alpine
 RUN apk add curl && apk add tar
 
 # Set the version ourself
-ENV RAILWAY_VERSION=3.0.19
+ENV RAILWAY_VERSION=3.9.0
 
 RUN curl -fsSL cli.new | sh
 
